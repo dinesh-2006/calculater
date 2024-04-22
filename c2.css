@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:url(/bg2.jpg) ;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.cal{
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(18, 56, 52, 0.877);
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
+    backdrop-filter: blur(50px);
+    
+
+}
+ .s{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 10px;
+    border:none;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+    box-shadow: 0 0 20px rgb(46, 59, 55);
+}
+ .s input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+}
+form input.e{
+    width:150px;
+}
+.s:hover{
+    transition: all 1s;
+}
+.cal:hover{
+    transform: scale(1.2);
+    transition:  all 1s;
+    box-shadow: 0 0 25px rgb(19, 114, 82);
+}
+.cal:not(:hover){
+    transition:  all 1s;
+}
+.d:hover{
+    background-color: aqua;
+    transition:all ease-in-out 500ms;
+    color: white;
+    font-size: 25px;
+}
+
+    .a:hover{
+        background-color:rgb(255, 147, 70);
+        color: chartreuse;
+}
